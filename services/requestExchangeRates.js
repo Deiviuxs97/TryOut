@@ -12,7 +12,6 @@ const requestExchangeRates = async (req, res, next) => {
   });
 
   req.body.exchangeRate = exchangeRates;
-  console.log(exchangeRates, "exchangeRates");
   next();
 }
 
